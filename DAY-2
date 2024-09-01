@@ -1,0 +1,81 @@
+//TAKE DOUBLE INPUT - SCANNER 
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter a number:");
+
+    // take a double input
+    double data = input.nextDouble();
+
+    System.out.println("Input Data: " + data);
+
+    input.close();
+  }
+}
+
+
+
+//TAKE TEXT INPUT - SCANNER
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter text:");
+
+    // take entire line as input
+    String data = input.nextLine();
+
+    System.out.println("Input Data: " + data);
+
+    input.close();
+  }
+}
+
+
+
+//OPERATOR - ASSIGNMENT O/P
+
+class Main {
+  public static void main(String[] args) {
+
+    int num1 = 10, num2 = 24;
+    System.out.println("num1 (before): " + num1);
+
+    // assign value of num2 to num1
+    num1 = num2;
+
+    System.out.println("num1 (after): " + num1);
+  }
+}
+
+
+//OPERATOR - ARITHMETIC O/P
+
+class Main {
+  public static void main(String[] args) {
+
+    int sum1 = 12 + 9;
+    System.out.println("Sum1: " + sum1);
+
+    int a = 5;
+    int sum2 = a + 22;
+    System.out.println( "Sum2: " + sum2);
+  }
+}
+
+
+//OPERATOR TO JOIN STRING 
+class Main {
+  public static void main(String[] args) {
+
+    System.out.println("Hello, " + "World!");
+  }
+}
